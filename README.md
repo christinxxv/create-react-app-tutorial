@@ -1,4 +1,72 @@
-# Getting Started with Create React App
+# How to Set up a React Application
+This tutorial will show you how to set up a React Application using Node JS and Visual Studio Code. 
+
+</br>
+
+## Overview
+This tutorial is a step by step tutorial that walks you through creating a basic react app using Visual Studio Code. In this tutorial we will:
+- [Install Visual Studio Code](#installing-visual-studio-code)
+- [Install Node JS](#installing-node-js)
+- [Create A React App](#creating-a-react-app)
+- [Run the React App](#running-the-react-app)
+- [Declutter the Project](#decluttering-the-project)
+
+</br>
+
+## Installing Visual Studio Code
+Click [here](https://code.visualstudio.com/) to install Visual Studio Code.
+
+</br>
+
+## Installing Node JS
+Click [here](https://nodejs.org/en/download/) to install Node JS. I reccommend always choosing the latest LTS version.
+
+</br>
+
+## Creating a React App
+1. Open Visual Studio Code
+<img src="https://github.com/christinxxv/react-create-app-tutorial/blob/main/src/images/open-vs-code.png" alt="Alt text" style="width: 400px; height: auto;">
+
+2. Open the Terminal using ctrl + shift + \` (This character is the back quote character. It is located on the same key as tilde '~'). You can also use the Terminal option on the top nav.
+<img src="https://github.com/christinxxv/react-create-app-tutorial/blob/main/src/images/vs-code-terminal.png" alt="Alt text" style="width: 600px; height: auto;">
+
+3. Ensure that you have installed node correctly by running this command:
+````
+ node --version
+ ````
+4. To create the React Application, run this command:
+````
+npx create-react-app 'whatever-you-want-to-name-the-app'
+````
+- For example, mine is called 'my-app'
+````
+npx create-react-app my-app
+````
+5. Once your react app is done loading you should see something like this:
+<img src="https://github.com/christinxxv/react-create-app-tutorial/blob/main/src/images/app-created.png" alt="Alt text" style="width: 300px; height: auto;">
+ 
+
+## Running the React App
+To run your application, run this command:
+````
+npm start
+````
+<img src="https://github.com/christinxxv/react-create-app-tutorial/blob/main/src/images/run-default-preview.png" alt="Alt text" style="width: 300px; height: auto;">
+
+
+## Decluttering the Project
+I know that it can be a little frustrating not know what all these files and folders are for. You really do not need them all. If you want to break it down and declutter the project. Here are the files you really need!
+</br></br>
+_Note: Once you start deleting files you will have to refactor and change imports and pointers._
+<img src="https://github.com/christinxxv/react-create-app-tutorial/blob/main/src/images/app-decluttered.png" alt="Alt text" style="width: 300px; height: auto;">
+
+You can also use or reference my above source code to see how to customize and refactor it to get it running with the decluttered format. 
+
+
+</br>
+
+
+## More on Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
