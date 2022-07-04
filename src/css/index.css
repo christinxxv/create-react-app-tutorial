@@ -1,0 +1,10 @@
+#root {
+    --card-color: #EDF5FF;
+    --card-border: #001A5E;
+    --light-gray: #EAEAEA;
+}
+
+.card {
+    background-color: var(--card-color);
+    border: solid 1px var(--card-border);
+}
